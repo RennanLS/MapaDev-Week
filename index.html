@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
 <body>
     <main class="cartao">
         <div class="minhas-informacoes">
-            <img src="imagens/foto-perfil.jpg" alt="uma foto minha de perfil">
+            <img src="imagens/foto-perfil.jpg" alt="uma foto minha de perfil" class="perfil">
             <h1 class="nome">Rennan Santos</h1>
             <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
 
@@ -25,41 +25,45 @@
 
         <div class="conteudo">
             <ul class="abas">
-                <li>
+                <li class="aba selecionada">
                     <img src="imagens/sobre.gif" alt="icone animado">
                 </li>
-                <li>
+                <li class="aba">
                     <img src="imagens/coracao.gif" alt="gif de coração">
                 </li>
             </ul>
 
             <div class=informacoes-abas>
-                <div class="informacoes">
+
+                <div class="informacao-selecionado">
                     <h3 class="sub-titulo">Sobre</h3>
-                    <div>
+
+                    <div class="descricao">
                         <p>Oi! Sou Rennan, seja muito bem-vindo(a)!</p>
 
                         <p>Sou um estudante de programação em busca da minha primeira expêriencia dentro desta area.
-                            Atualmente estou estudando <span>HTML, CSS e JavaScript</span>
+                            Atualmente estou estudando <span>HTML, CSS e JavaScript</span>. Gosto muito de gatos, e meus hobbies são MMORPG e assistir diversas coisas. <br>
+                            <br>
+                            Você pode acompanhar meu projetos pela aba das redes sociais ao lado &#x1F449
                         </p>
                     </div>
+
                 </div>
+                <div class="informacao">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+                    <ul class="redes-sociais">
 
-            </div>
-            <div>
-                <h3>Minhas Redes</h3>
-                <ul class="redes-sociais">
+                        <li><a href="https://rennanls.github.io/jornada-dev-ebac/" target="_blank"
+                                class="curriculo">Currículo</a></li>
 
-                    <li><a href="https://rennanls.github.io/jornada-dev-ebac/" target="_blank"
-                            class="curriculo">Currículo</a></li>
+                        <li><a href="https://www.linkedin.com/in/rennan-santos-38b198234/" target="_blank"
+                                class="linkedin">Linkedin</a></li>
 
-                    <li><a href="https://www.linkedin.com/in/rennan-santos-38b198234/" target="_blank"
-                            class="linkedin">Linkedin</a></li>
-
-                    <li><a href="https://github.com/RennanLS" target="_blank" class="github">GitHub</a></li>
-                </ul>
+                        <li><a href="https://github.com/RennanLS" target="_blank" class="github">GitHub</a></li>
+                    </ul>
 
 
+                </div>
             </div>
 
         </div>
